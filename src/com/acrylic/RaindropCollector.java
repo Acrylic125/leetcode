@@ -39,7 +39,6 @@ public class RaindropCollector {
                     heightObstaclesTotal -= heightObstaclesTotalAfter;
                     int fill = (((greatestHeightIndex - (i + 1)) * mHeight) - heightObstaclesTotal);
                     accum += fill;
-                    System.out.println("(" + i + ", " + greatestHeightIndex + ") accum = " + accum + " mHeight = " + mHeight + " fill = " + fill + " obstacles = " + heightObstaclesTotal + " removed obstacles = " + heightObstaclesTotalAfter + ".");
                     i = greatestHeightIndex - 1;
                 }
             }
