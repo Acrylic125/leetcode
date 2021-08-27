@@ -3,7 +3,7 @@ package com.acrylic;
 public class TextZigZag {
 
     public static void main(String[] args) {
-//        "st".charAt()
+
     }
 
     public String convert(String s, int numRows) {
