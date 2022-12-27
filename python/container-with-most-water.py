@@ -8,13 +8,12 @@ class Solution:
         while left < height.__len__() - 1:
             right = height.__len__() - 1
             leftHeight = height[left]
-            
-            # while right > left:
-            #     rightHeight = height[right]
-            #     lowerOfLeftAndRight = min(leftHeight, rightHeight)
-            #     distance = right - left
-            #     maxArea = max(maxArea, lowerOfLeftAndRight * distance)
-            #     right -= 1 
+            while right > left:
+                rightHeight = height[right]
+                lowerOfLeftAndRight = min(leftHeight, rightHeight)
+                distance = right - left
+                maxArea = max(maxArea, lowerOfLeftAndRight * distance)
+                right -= 1 
             left += 1
         return maxArea
 

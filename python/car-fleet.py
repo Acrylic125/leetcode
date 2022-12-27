@@ -13,4 +13,4 @@ class Solution:
                 if car[0] >= target:
                     fleets[car[0]] = car[1] 
         while True:
-            
+            pass
